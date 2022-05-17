@@ -1,0 +1,35 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.content {
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    height: 400px;
+}
+
+#input {
+    width: fit-content;
+}
+
+#city {
+    color: white;
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+}
+
+#icon > * {
+    width: 120px;
+}
+
+#text {
+
+    text-align: center;
+    color: white;
+}
+
