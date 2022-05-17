@@ -4,7 +4,7 @@ document.querySelector("#cityBtn").addEventListener("click", () => {
 	
 	let input = document.querySelector("#cityInput").value
 	
-	fetch(`http://api.weatherapi.com/v1/current.json?key=af3545b97ba64c5aab0113045221305&q=${input}&aqi=no`)
+	fetch(`https://api.weatherapi.com/v1/current.json?key=af3545b97ba64c5aab0113045221305&q=${input}&aqi=no`)
 	.then(response => response.json())
 	.then(response => printFunction(response))
 	.catch(err => console)
